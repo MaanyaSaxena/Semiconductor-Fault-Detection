@@ -69,7 +69,7 @@ already seen labeled. Both are legitimate, complementary approaches to the same 
 
 ## 6. Key Findings
 
-### 6.1 — Validation Strategy Changes the Reported Outcome 
+### 6.1 Validation Strategy Changes the Reported Outcome 
 
 The same Random Forest, same data, same tuned hyperparameters, evaluated two ways:
 
@@ -97,7 +97,7 @@ chronological train–test splits with performance evaluated and aggregated acro
 that chronological evaluation provides a materially different and more deployment-relevant assessment than random splitting, 
 while recognizing that stronger evidence would require repeated time-based validation.
 
-### 6.2 — Among Supervised Models Tested, LDA Scored Highest
+### 6.2 Among Supervised Models Tested, LDA Scored Highest
 
 | Supervised Model | Average Precision (chronological test set) |
 |---|---|
@@ -114,7 +114,7 @@ drawn regarding the reasons for LDA's superior performance or the suitability of
 comparatively stronger performance among the three supervised methods evaluated.
 
 
-### 6.3 — Isolation Forest and Hotelling's T² Answer a Different Question Than Accuracy Can
+### 6.3 Isolation Forest and Hotelling's T² Answer a Different Question Than Accuracy Can
 
 The Isolation Forest model was trained using zero labeled failure observations, achieving an Average Precision of 0.072 with 
 a 95% confidence interval of [0.044, 0.125]. This is particularly relevant in practical deployment settings, where labeled 
@@ -122,7 +122,7 @@ examples of all potential future failure modes are unlikely to be available in a
 provide a means of identifying previously unseen abnormal patterns. However, this does not imply that every future or previously 
 unseen failure mode will necessarily be detected. No such guarantee is made.
 
-### 6.4 — Accuracy and a Default 0.5 Threshold Are Actively Misleading Here
+### 6.4 Accuracy and a Default 0.5 Threshold Are Actively Misleading Here
 
 At the default classification threshold of 0.5, the Random Forest model predicted no failures, resulting in 0% recall and 
 0% precision for the failure class, despite the use of class_weight='balanced'. This result is retained explicitly because 
