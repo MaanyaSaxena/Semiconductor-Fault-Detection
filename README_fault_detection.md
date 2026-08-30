@@ -259,7 +259,7 @@ whereas the **same Random Forest evaluated using a chronological split achieved 
 the underlying model and dataset remained unchanged; the substantial difference in performance resulted solely 
 from how the training and testing boundary was defined.
 
-However, this comparison is based on **one random split and one chronological split**, rather than repeated
+    However, this comparison is based on **one random split and one chronological split**, rather than repeated
 or cross-validated evaluations. Therefore, the results should not be interpreted as a fully validated 
 estimate of future production performance. Instead, they demonstrate that
 **the choice of evaluation strategy can have a substantial effect on reported model performance**, an 
@@ -274,7 +274,7 @@ same distributional assumptions. In contrast, **Logistic Regression, Random Fore
 directly from historical examples of failure and therefore approach the problem from a supervised 
 classification perspective.
 
-None of these methods is considered universally superior in this analysis, as each addresses a different 
+    None of these methods is considered universally superior in this analysis, as each addresses a different 
 interpretation of the question, **"Does this unit exhibit characteristics associated with a problem?"** 
 In a practical production environment, these approaches could potentially be used in combination as 
 complementary monitoring mechanisms. However, this project does not directly evaluate such an integrated 
