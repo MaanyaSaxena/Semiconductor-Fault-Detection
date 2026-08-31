@@ -1,0 +1,6 @@
+model,type,average_precision,ci_low,ci_high,no_skill_baseline
+Isolation Forest,Unsupervised,0.071766,0.044187,0.124708,0.061224
+Logistic Regression,Supervised,0.082491,0.053035,0.13839,0.061224
+Random Forest,Supervised,0.067465,0.042479,0.118903,0.061224
+LDA,Supervised,0.101987,0.059792,0.186739,0.061224
+Hotelling T2 (bonus),Statistical,0.06178,0.037459,0.105181,0.061224
