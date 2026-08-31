@@ -317,15 +317,34 @@ realistically be detected.
 
 ## 14. Repo Structure
 
-```
+## 14. Repo Structure
+
+```text
+SECOM-Fault-Detection/
+│
 ├── notebooks/
 │   └── SECOM_Fault_Detection.ipynb
+│
 ├── dashboard/
-│   ├── dashboard_plan.md
 │   └── dashboard_preview.png
+│
+├── results/
+│   ├── class_distribution.png
+│   ├── confusion_matrix.png
+│   ├── feature_importance.png
+│   ├── hotelling_t2.png
+│   ├── model_comparison.xlsx
+│   ├── model_comparison.png
+│   ├── roc_pr_curves.png
+│   ├── threshold_analysis.xlsx
+│   └── threshold_analysis.png
+│
 ├── README.md
+├── Data.md
 └── requirements.txt
+
 ```
+
 
 ## 15. How to Run
 
