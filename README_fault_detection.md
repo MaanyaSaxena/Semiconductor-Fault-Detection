@@ -88,7 +88,7 @@ real, time-ordered production data; most work on this dataset ignores that and s
 project doesn't, and the gap above a >2x difference in Average Precision from the *same model* — is the
 concrete cost of that choice.
 
-**Important Caveat:** Important caveat: This analysis compares one random train–test split with one chronological holdout split. 
+**Important Caveat:** This analysis compares one random train–test split with one chronological holdout split. 
 While the results demonstrate that the choice of validation strategy can substantially affect reported model performance, 
 the chronological Average Precision of 0.067 should not be interpreted as a definitive estimate of future production performance. 
 A single chronological holdout may produce an optimistic or pessimistic estimate depending on the characteristics of the 
@@ -245,8 +245,8 @@ sensor_64, sensor_0, sensor_417 — all clustered much closer together (0.005–
 A build plan and CSV exports (`tableau_exports/`) turn the key numbers above into a single, shareable
 dashboard panel — the KPI summary, the random-vs-chronological comparison chart, failure rate over time, and
 top SHAP features. 
-See [`https://public.tableau.com/views/FaultDetection_v2026_1/FaultDetectionExecutiveDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link`]
-for the exact build steps and chart-to-data mapping.
+View the [live interactive dashboard on Tableau Public](https://public.tableau.com/views/FaultDetection_v2026_1/FaultDetectionExecutiveDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link),
+or see [`dashboard/dashboard_plan.md`](dashboard/dashboard_plan.md) for the build steps and chart-to-data mapping..
 
 ## 11. Conclusion
 
