@@ -245,8 +245,7 @@ sensor_64, sensor_0, sensor_417 — all clustered much closer together (0.005–
 A build plan and CSV exports (`tableau_exports/`) turn the key numbers above into a single, shareable
 dashboard panel — the KPI summary, the random-vs-chronological comparison chart, failure rate over time, and
 top SHAP features. 
-View the [live interactive dashboard on Tableau Public](https://public.tableau.com/views/FaultDetection_v2026_1/FaultDetectionExecutiveDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link),
-or see [`dashboard/dashboard_plan.md`](dashboard/dashboard_plan.md) for the build steps and chart-to-data mapping..
+View the [live interactive dashboard on Tableau Public](https://public.tableau.com/views/FaultDetection_v2026_1/FaultDetectionExecutiveDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ## 11. Conclusion
 
