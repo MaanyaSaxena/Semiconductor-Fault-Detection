@@ -338,7 +338,7 @@ SECOM-Fault-Detection/
 │   └── threshold_analysis.png
 │
 ├── README.md
-├── Data.md
+├── data_dictionary.md
 └── requirements.txt
 
 ```
