@@ -317,8 +317,6 @@ realistically be detected.
 
 ## 14. Repo Structure
 
-## 14. Repo Structure
-
 ```text
 SECOM-Fault-Detection/
 │
